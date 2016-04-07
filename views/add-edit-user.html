@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <title>Add New User</title>
+    <script type="text/javascript" src="ajax.js"></script>
+  </head>
+  <body>
+    <h1>Add New User</h1>
+    <form method="POST" action="api/user">
+      <input type="hidden" id="id" name="id"/>
+      First Name: <input type="text" id="fname" name="fname"/>
+      Last Name: <input type="text" id="lname" name="lname"/>
+      Age: <input type="text" id="age" name="age"/>
+      <input type="submit"/>
+    </form>
+    <script type="text/javascript" src="edit-user.js"></script>
+  </body>
+</html>
